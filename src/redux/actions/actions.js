@@ -12,14 +12,16 @@ export const sellPhone = () => {
     })
 }
 
-export const sellWatch = () => {
+export const sellWatch = (number = 1) => {
     return ({
-        type: SELL_WATCH
+        type: SELL_WATCH,
+        payload: number
     })
 }
 
-export const sellComp = () => {
+export const sellComp = (number = 1) => {
     return ({
-        type: SELL_COMP
+        type: SELL_COMP,
+        payload: number
     })
 }
