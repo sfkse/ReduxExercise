@@ -11,7 +11,7 @@ const PhoneComp = () => {
                 Number of Phones :
                 <span className="number">{numberOfPhones}</span>
             </h3>
-            <button onClick={() => dispatch(sellPhone())}>Sell Laptop</button>
+            <button onClick={() => dispatch(sellPhone())}>Sell Phone</button>
         </div>
     )
 }
